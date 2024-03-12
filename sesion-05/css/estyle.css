@@ -1,0 +1,87 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 650px;
+    margin: 0 auto;
+    background-image: url(../images/wall-picture-frame-vector-painting-600nw-1430998769.webp);
+    background-size: cover;
+    background-position: 50% 35%
+}
+header {
+    margin-top: 90px;
+    background-color: burlywood;
+    border-radius: 10px;
+    overflow: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+header ul {
+    float: right;
+    margin: 0;
+    list-style: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: rgb(97, 80, 59);
+    border-radius: 10px;
+}
+
+header ul li a {
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    font-size: larger;
+}
+
+main table {
+    background-color: rgb(32, 32, 32);
+    padding: 10px;
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+main table tr td#izq {
+    width: 55%;
+}
+
+main table tr td#derech {
+    width: 45%;
+    vertical-align: top;
+    
+}
+main table tr td h2 {
+    margin: 0 15px 0 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+main table tr td h3 {
+    margin-left: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+main table tr td p {
+    word-spacing: 5px;
+    line-height: 25px;
+    margin: 0 20px 0 20px;
+    text-decoration: underline 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
